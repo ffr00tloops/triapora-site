@@ -35,6 +35,73 @@
     <link rel="stylesheet" href="/css/root.css">
     <link rel="stylesheet" href="/css/contact.css">
     <link rel="stylesheet" href="/css/dark.css">
+    <link rel="stylesheet" href="/css/gmap.css">
+
+    <style>
+    /* Grid container */
+    .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* even 50/50 columns */
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto; /* centers the whole section */
+    padding: 40px 20px;
+    }
+
+    /* Map styling */
+    .embed-map-fixed {
+    position: relative;
+    width: 100%;
+    padding-top: 100%; /* keeps it square, responsive */
+    }
+
+    .embed-map-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    }
+
+    .embed-map-frame {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    }
+
+    /* Contact info styling */
+    .contact-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+
+    .info-group .heading {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    }
+
+    .info-group .info {
+    color: #555;
+    text-decoration: none;
+    }
+
+    /* Make layout responsive for mobile */
+    @media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr; /* stack on small screens */
+        text-align: center;
+    }
+
+    .embed-map-fixed {
+        padding-top: 75%; /* shorter map on mobile */
+    }
+    }
+    </style>
+    
 
     <!--Put analytics tag here at the bottom to prevent it from render blocking-->
 
@@ -103,35 +170,57 @@
             </picture>
         </section>
 
-        <div style="text-align: justify; width: 50%; margin: auto; padding-top: 150px;">
+
+        <div style="text-align: justify; width: 50%; margin: auto; padding-top: 50px;">
             <h2 style="text-align: center;" class="section-title">Ready to Feel Secure?</h2>
             <p class="section-subtitle">Whether you have questions or need a customized quote, Triapora Security Agency is here to help. Our team is ready to assist and guide you every step of the way — your safety is our priority. Contact us now and protect what matters most.</p>
         </div>
 
-        
+
 
         <!-- ============================================ -->
         <!--                    FORM                      -->
         <!-- ============================================ -->
 
-        <section id="form">
-            <div class="contact-right">
-                <div class="info-group">
-                    <span class="heading">Location</span>
-                    <span class="info">Block 4, Olympus Subdivision, Lot 5 Zabarte Rd, Novaliches, Quezon City, 1124 Metro Manila</span>
-                </div>
-                <div class="info-group">
-                    <span class="heading">Phone</span>
-                    <a class="info" href="tel:555-779-4407">0920 981 3468 / (8)9865203 </a>
-                </div>
-                <div class="info-group">
-                    <span class="heading">Email</span>
-                    <a class="info" href="mailto:triaporasec@gmail.com">triaporasec@gmail.com</a>
-                </div>
+        <div class="contact-grid">
+        <!-- Google Map -->
+        <div class="map-wrapper">
+            <div class="embed-map-fixed">
+            <div class="embed-map-container">
+                <iframe
+                class="embed-map-frame"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=500&height=500&hl=en&q=Triapora%20Security%20Agency%20Inc.&t=&z=18&ie=UTF8&iwloc=B&output=embed">
+                </iframe>
+            </div>
+            </div>
+        </div>
+
+        <!-- Contact Info -->
+        <section id="form" class="contact-right">
+            <div class="info-group">
+            <span class="heading">Location</span>
+            <span class="info">
+                Block 4, Olympus Subdivision, Lot 5 Zabarte Rd, Novaliches, Quezon City, 1124 Metro Manila
+            </span>
+            </div>
+            <div class="info-group">
+            <span class="heading">Phone</span>
+            <a class="info" href="tel:09209813468">0920 981 3468 / (8)9865203</a>
+            </div>
+            <div class="info-group">
+            <span class="heading">Email</span>
+            <a class="info" href="mailto:triaporasec@gmail.com">triaporasec@gmail.com</a>
             </div>
         </section>
+        </div>
+
 
     </main>
+
 
     <!-- ============================================ -->
     <!--                   Footer                     -->
