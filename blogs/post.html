@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Post</title>
+  <link rel="stylesheet" href="/css/root.css">
+  <style>
+    .post-container { max-width: 900px; margin: auto; padding: 40px 20px; }
+    h1 { margin-bottom: 10px; }
+    small { color: #666; }
+    #content { margin-top: 20px; line-height: 1.6; }
+    a.back { display: inline-block; margin-top: 30px; text-decoration: none; color: #0077cc; }
+  </style>
+</head>
+<body>
+  <section class="post-container">
+    <h1 id="title"></h1>
+    <small id="date"></small>
+    <div id="content"></div>
+    <a class="back" href="/blogs.html">← Back to Blog</a>
+  </section>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get('id');
+
+    fetch('/blogs/posts.json')
+      .then(response => response.json())
+      .then(posts => {
+        const post = posts.find(p => p.id === id);
+
+        if(!post){
+          document.getElementById('title').textContent = 'Post Not Found';
+          return;
+        }
+
+        document.title = post.title;
+        document.getElementById('title').textContent = post.title;
+        document.getElementById('date').textContent = post.date;
+        document.getElementById('content').innerHTML = post.content;
+      });
+  </script>
+</body>
+</html>
