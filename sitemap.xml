@@ -9,22 +9,27 @@
 
 <url>
   <loc>https://triaporasecurity.com/</loc>
-  <lastmod>2025-11-09T08:20:46+00:00</lastmod>
+  <lastmod>2025-11-09T12:25:12+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://triaporasecurity.com/index.html</loc>
-  <lastmod>2025-11-09T08:20:46+00:00</lastmod>
+  <lastmod>2025-11-09T12:25:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://triaporasecurity.com/blogs.html</loc>
+  <lastmod>2025-11-09T12:25:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://triaporasecurity.com/about.html</loc>
-  <lastmod>2025-11-09T08:20:47+00:00</lastmod>
+  <lastmod>2025-11-09T12:25:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://triaporasecurity.com/contact.html</loc>
-  <lastmod>2025-11-09T08:20:47+00:00</lastmod>
+  <lastmod>2025-11-09T12:25:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
