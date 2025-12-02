@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Triapora Security Agency - Professional security guard services in Metro Manila with 25+ years of experience. Commercial, residential, industrial, and educational security solutions.">
+    <meta name="keywords" content="security guards Metro Manila, security agency Philippines, commercial security, residential security, industrial security, professional security services">
+    <meta name="author" content="Triapora Security Agency Inc.">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="theme-color" content="#565f95">
+    <meta property="og:type" content="business.business">
+    <meta property="og:title" content="Triapora Security Agency - Professional Security Guards in Metro Manila">
+    <meta property="og:description" content="Your trusted partner in safety and protection. 25+ years of professional security services in Metro Manila. Commercial, residential, industrial & educational security.">
+    <meta property="og:url" content="https://triaporasecurity.com/">
+    <meta property="og:image" content="../image/tsa dark logo.png">
+    <meta property="og:site_name" content="Triapora Security Agency">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Triapora Security Agency - Professional Security Guards">
+    <meta name="twitter:description" content="Professional security guard services in Metro Manila. 25+ years serving businesses and residential clients.">
+    <link rel="canonical" href="https://triaporasecurity.com/">
+    <link rel="sitemap" type="application/xml" href="sitemap.xml">
+    <title>Triapora Security Agency - Professional Security Guards in Metro Manila</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        header {
+            background: linear-gradient(135deg, #565f95 0%, #6b77b3 100%);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            color: #ffd700;
+        }
+
+        .call-button {
+            background-color: #565f95;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .call-button:hover {
+            background-color: #3d4565;
+        }
+
+        /* Hamburger Menu */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background-color: #fff;
+            margin: 5px 0;
+            transition: 0.3s;
+            border-radius: 2px;
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(-45deg) translate(-8px, 8px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(45deg) translate(-7px, -7px);
+        }
+        .hero {
+            background: linear-gradient(135deg, #565f95 0%, #6b77b3 100%);
+            color: white;
+            padding: 6rem 2rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+
+        .hero-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background-color: #565f95;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #3d4565;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(86,95,149,0.3);
+        }
+
+        .btn-secondary {
+            background-color: #f0f0f0;
+            color: #565f95;
+        }
+
+        .btn-secondary:hover {
+            background-color: #e0e0e0;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 4rem 2rem;
+            background-color: #f9f9f9;
+        }
+
+        .services h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #565f95;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-align: center;
+            display: block;
+            cursor: pointer;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+
+        .service-card h3 {
+            color: #565f95;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .service-card p {
+            color: #666;
+            line-height: 1.8;
+        }
+
+        /* About Section */
+        .about {
+            padding: 4rem 2rem;
+            background: white;
+        }
+
+        .about h2 {
+            font-size: 2.5rem;
+            color: #565f95;
+            margin-bottom: 2rem;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .about-text h3 {
+            color: #565f95;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .about-text p {
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .about-list {
+            list-style: none;
+            margin: 2rem 0;
+        }
+
+        .about-list li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: #666;
+        }
+
+        .about-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #565f95;
+            font-weight: bold;
+        }
+
+        .about-stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .stat {
+            background: linear-gradient(135deg, #565f95 0%, #6b77b3 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            opacity: 0.9;
+        }
+
+        /* Why Choose Us */
+        .why-choose {
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, #565f95 0%, #6b77b3 100%);
+            color: white;
+        }
+
+        .why-choose h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .why-choose-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .why-card {
+            background: rgba(255,255,255,0.1);
+            padding: 2rem;
+            border-radius: 8px;
+            border: 1px solid rgba(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        .why-card h3 {
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        /* CTA Section */
+        .cta {
+            background: linear-gradient(135deg, #565f95 0%, #6b77b3 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+
+        .phone-display {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 2rem;
+            background: rgba(255,255,255,0.2);
+            padding: 1.5rem;
+            border-radius: 8px;
+            display: inline-block;
+        }
+
+        .phone-display a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        /* Blogs Section */
+        .blogs {
+            padding: 4rem 2rem;
+            background-color: #fff;
+        }
+
+        .blogs h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #565f95;
+            margin-bottom: 1rem;
+        }
+
+        .blogs-intro {
+            text-align: center;
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 3rem;
+        }
+
+        .blogs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .blog-card {
+            background: #f9f9f9;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            flex-direction: column;
+            border-left: 4px solid #565f95;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+        }
+
+        .blog-date {
+            color: #565f95;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .blog-card h3 {
+            color: #333;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+
+        .blog-card p {
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+            flex-grow: 1;
+        }
+
+        .read-more {
+            color: #565f95;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+            display: inline-block;
+        }
+
+        .read-more:hover {
+            color: #3d4565;
+        }
+        .contact {
+            padding: 4rem 2rem;
+            background: #f9f9f9;
+        }
+
+        .contact h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #565f95;
+            margin-bottom: 3rem;
+        }
+
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .contact-info {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .contact-info h3 {
+            color: #565f95;
+            margin-bottom: 1.5rem;
+            font-size: 1.3rem;
+        }
+
+        .contact-item {
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .contact-item strong {
+            color: #565f95;
+            min-width: 80px;
+        }
+
+        .contact-item a {
+            color: #565f95;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        /* Map Container */
+        .map-container {
+            margin-top: 2rem;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .map-container iframe {
+            border: none;
+            border-radius: 8px;
+            display: block;
+        }
+
+        /* Google Map Wrapper */
+        .map-wrapper {
+            width: 100%;
+            margin-top: 2rem;
+        }
+
+        .embed-map-fixed {
+            position: relative;
+            width: 100%;
+            padding-bottom: 50%;
+        }
+
+        .embed-map-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .embed-map-frame {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        footer {
+            background: #565f95;
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+
+        .footer-section h4 {
+            margin-bottom: 1rem;
+            color: white;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section a {
+            color: #ddd;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: #ffd700;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.2);
+            padding-top: 2rem;
+            text-align: center;
+            opacity: 0.8;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav {
+                flex-wrap: wrap;
+                padding: 0 1rem;
+            }
+
+            .logo {
+                flex: 1;
+                min-width: 150px;
+            }
+
+            .hamburger {
+                display: flex;
+                order: 2;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                gap: 0.5rem;
+                width: 100%;
+                margin-top: 0;
+                justify-content: flex-start;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                right: 0;
+                background: linear-gradient(135deg, #565f95 0%, #6b77b3 100%);
+                flex-direction: column;
+                padding: 1rem 2rem;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease-out;
+            }
+
+            .nav-links.active {
+                max-height: 400px;
+            }
+
+            .nav-links li {
+                font-size: 0.9rem;
+                width: 100%;
+                display: block;
+                margin-bottom: 0.5rem;
+            }
+
+            .nav-links a {
+                padding: 0.5rem 0.75rem;
+                display: block;
+            }
+
+            .call-button {
+                padding: 0.6rem 1rem;
+                font-size: 0.9rem;
+                display: block;
+                text-align: center;
+            }
+
+            .hero {
+                padding: 3rem 1rem;
+            }
+
+            .hero h1 {
+                font-size: 1.8rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .services {
+                padding: 2rem 1rem;
+            }
+
+            .services h2 {
+                font-size: 1.8rem;
+                margin-bottom: 2rem;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .about {
+                padding: 2rem 1rem;
+            }
+
+            .about h2 {
+                font-size: 1.8rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .about-text h3 {
+                font-size: 1.2rem;
+            }
+
+            .about-stats {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 0.75rem;
+            }
+
+            .stat {
+                padding: 1rem;
+            }
+
+            .stat-number {
+                font-size: 1.5rem;
+            }
+
+            .stat-label {
+                font-size: 0.85rem;
+            }
+
+            .why-choose {
+                padding: 2rem 1rem;
+            }
+
+            .why-choose h2 {
+                font-size: 1.8rem;
+                margin-bottom: 2rem;
+            }
+
+            .why-choose-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .why-card {
+                padding: 1.5rem;
+            }
+
+            .why-card h3 {
+                font-size: 1.1rem;
+            }
+
+            .cta {
+                padding: 2rem 1rem;
+            }
+
+            .cta h2 {
+                font-size: 1.8rem;
+                margin-bottom: 0.75rem;
+            }
+
+            .cta p {
+                font-size: 1rem;
+            }
+
+            .phone-display {
+                font-size: 1.5rem;
+                padding: 1rem;
+            }
+
+            .contact {
+                padding: 2rem 1rem;
+            }
+
+            .contact h2 {
+                font-size: 1.8rem;
+                margin-bottom: 2rem;
+            }
+
+            .contact-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .contact-info {
+                padding: 1.5rem;
+            }
+
+            .contact-item {
+                gap: 0.5rem;
+                font-size: 0.95rem;
+            }
+
+            .contact-item strong {
+                min-width: 70px;
+            }
+
+            footer {
+                padding: 2rem 1rem;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+                margin-bottom: 1rem;
+                text-align: center;
+            }
+
+            .footer-section {
+                text-align: center;
+            }
+
+            .btn {
+                padding: 0.8rem 1.5rem;
+                font-size: 0.9rem;
+                width: auto;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+
+            .hero-buttons .btn {
+                width: 100%;
+            }
+
+            .blogs {
+                padding: 2rem 1rem;
+            }
+
+            .blogs h2 {
+                font-size: 1.8rem;
+                margin-bottom: 0.75rem;
+            }
+
+            .blogs-intro {
+                font-size: 0.95rem;
+                margin-bottom: 2rem;
+            }
+
+            .blogs-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .blog-card {
+                padding: 1.5rem;
+            }
+
+            .blog-card h3 {
+                font-size: 1.1rem;
+            }
+            nav {
+                padding: 0 0.5rem;
+            }
+
+            .logo img {
+                height: 40px !important;
+                margin-right: 5px !important;
+            }
+
+            .nav-links {
+                gap: 0.25rem;
+            }
+
+            .nav-links a,
+            .nav-links li {
+                font-size: 0.8rem;
+                padding: 0.4rem 0.5rem;
+            }
+
+            .call-button {
+                padding: 0.5rem 0.8rem;
+                font-size: 0.8rem;
+            }
+
+            .hero h1 {
+                font-size: 1.3rem;
+            }
+
+            .hero p {
+                font-size: 0.9rem;
+            }
+
+            .services h2,
+            .about h2,
+            .contact h2,
+            .cta h2,
+            .why-choose h2 {
+                font-size: 1.4rem;
+            }
+
+            .service-card h3,
+            .about-text h3 {
+                font-size: 1.1rem;
+            }
+
+            .about-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .phone-display {
+                font-size: 1.2rem;
+            }
+
+            .container {
+                padding: 0 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <a href="#" class="logo">
+                <img src="../image/tsa dark logo.png" alt="Triapora Security Agency Logo" style="height: 50px; margin-right: 10px; vertical-align: middle;">
+            </a>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="tel:0920-981-3468" class="call-button">📞 CALL NOW</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Your Trusted Partner in Safety and Protection</h1>
+            <p>Professional Security Services in Metro Manila Since 1999</p>
+            <div class="hero-buttons">
+                <a href="tel:0920-981-3468" class="btn btn-primary">📞 Call Now: 0920-981-3468</a>
+                <a href="#contact" class="btn btn-secondary">Get Free Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Our Security Services</h2>
+            <div class="services-grid">
+                <a href="service-commercial.html" class="service-card" style="text-decoration: none; color: inherit;">
+                    <h3>🏢 Commercial Security</h3>
+                    <p>Protect your offices, retail stores, and shopping malls with our professional security personnel trained to handle commercial environments.</p>
+                    <div style="color: #565f95; font-weight: bold; margin-top: 1rem;">Learn More →</div>
+                </a>
+                <a href="service-residential.html" class="service-card" style="text-decoration: none; color: inherit;">
+                    <h3>🏠 Residential Security</h3>
+                    <p>Safeguard your subdivisions, condominiums, and private properties with our disciplined and trustworthy security guards.</p>
+                    <div style="color: #565f95; font-weight: bold; margin-top: 1rem;">Learn More →</div>
+                </a>
+                <a href="service-industrial.html" class="service-card" style="text-decoration: none; color: inherit;">
+                    <h3>🏭 Industrial Security</h3>
+                    <p>Secure your warehouses, factories, and construction sites with our experienced security professionals.</p>
+                    <div style="color: #565f95; font-weight: bold; margin-top: 1rem;">Learn More →</div>
+                </a>
+                <a href="service-educational.html" class="service-card" style="text-decoration: none; color: inherit;">
+                    <h3>🎓 Educational Security</h3>
+                    <p>Protect schools, colleges, and training centers with our trained security personnel committed to student and staff safety.</p>
+                    <div style="color: #565f95; font-weight: bold; margin-top: 1rem;">Learn More →</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Triapora Security Agency</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>25+ Years of Excellence</h3>
+                    <p>Triapora Security Agency Inc. is a professional security guard service company proudly serving Metro Manila. With over 25 years of experience, we are committed to providing reliable, disciplined, and well-trained security personnel to safeguard your property, assets, and people.</p>
+                    
+                    <h3>Our Mission</h3>
+                    <p>We believe that true security is built on trust, discipline, and integrity. Every guard we deploy represents our promise to protect lives, properties, and the reputation of the establishments we serve.</p>
+                    
+                    <h3>What We Offer</h3>
+                    <ul class="about-list">
+                        <li>Strict screening and background checks</li>
+                        <li>Comprehensive training programs</li>
+                        <li>Continuous professional supervision</li>
+                        <li>Professional appearance and conduct</li>
+                        <li>Integrity and trustworthiness</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number">25+</div>
+                            <div class="stat-label">Years of Service</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">100+</div>
+                            <div class="stat-label">Clients Served</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Security Personnel</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Support Available</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose">
+        <div class="container">
+            <h2>Why Choose Triapora Security?</h2>
+            <div class="why-choose-grid">
+                <div class="why-card">
+                    <h3>Integrity & Professionalism</h3>
+                    <p>Every member of our team maintains the highest standards of integrity and professional conduct.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Experienced Personnel</h3>
+                    <p>Our guards undergo strict screening, training, and continuous supervision to meet industry standards.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Trust & Reliability</h3>
+                    <p>We believe that true security is more than just a presence — it's peace of mind for you and your clients.</p>
+                </div>
+                <div class="why-card">
+                    <h3>24/7 Availability</h3>
+                    <p>Round-the-clock security solutions tailored to your specific needs and requirements.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Modern Training</h3>
+                    <p>We invest in continuous training and technology to deliver unmatched protection.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Proven Track Record</h3>
+                    <p>Over 25 years of successfully protecting businesses, communities, and institutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Get in Touch With Us Today</h2>
+            <p>Let's talk about the right security solutions for your business, community, or institution.</p>
+            <div class="phone-display">
+                <a href="tel:0920-981-3468">📞 0920-981-3468</a>
+            </div>
+            <p style="margin-bottom: 1.5rem;">Our team is ready to provide trusted protection and peace of mind with over 25 years of proven experience.</p>
+            <a href="#contact" class="btn btn-secondary">Get an Estimate Now</a>
+        </div>
+    </section>
+
+    <!-- Blogs Section -->
+    <section class="blogs" id="blogs">
+        <div class="container">
+            <h2>Security Insights & News</h2>
+            <p class="blogs-intro">Expert articles and tips on professional security services in Metro Manila</p>
+            <div class="blogs-grid">
+                <article class="blog-card">
+                    <div class="blog-date">Dec 2025</div>
+                    <h3>Professional Security Guard Services: What You Need to Know</h3>
+                    <p>Learn about the importance of hiring professional security guards for your business, residential, or industrial property. Discover how trained security personnel protect your assets and provide peace of mind.</p>
+                    <a href="blog-1.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-date">Dec 2025</div>
+                    <h3>25 Years of Excellence: Triapora Security's Journey in Metro Manila</h3>
+                    <p>Explore the history and evolution of Triapora Security Agency over 25 years. Learn how we've become the trusted choice for commercial, residential, and industrial security solutions in Metro Manila.</p>
+                    <a href="blog-2.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-date">Dec 2025</div>
+                    <h3>Commercial Security Solutions: Protecting Your Business Assets</h3>
+                    <p>Discover effective strategies for securing retail stores, offices, and shopping malls. Learn about access control, surveillance, and professional security personnel deployment for commercial properties.</p>
+                    <a href="blog-3.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-date">Dec 2025</div>
+                    <h3>Residential Security: Safeguarding Your Home and Family</h3>
+                    <p>Understand the benefits of residential security services for subdivisions, condominiums, and private properties. Learn how professional guards ensure 24/7 protection for your loved ones and valuables.</p>
+                    <a href="blog-4.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-date">Dec 2025</div>
+                    <h3>Industrial Security: Protecting Warehouses, Factories & Construction Sites</h3>
+                    <p>Explore comprehensive security solutions for industrial facilities. Learn how trained security personnel monitor warehouses, factories, and construction sites to prevent theft and ensure workplace safety.</p>
+                    <a href="blog-5.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-date">Dec 2025</div>
+                    <h3>Educational Institution Security: Creating Safe Learning Environments</h3>
+                    <p>Discover how professional security services protect schools, colleges, and training centers. Learn about student safety, campus surveillance, and access control systems for educational facilities.</p>
+                    <a href="blog-6.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-date">Dec 2025</div>
+                    <h3>Security Guard Training: Standards That Set Us Apart</h3>
+                    <p>Learn about the rigorous training and screening process that Triapora Security guards undergo. Discover how continuous professional development ensures we maintain the highest industry standards.</p>
+                    <a href="blog-7.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-date">Dec 2025</div>
+                    <h3>24/7 Security Services: Round-the-Clock Protection You Can Trust</h3>
+                    <p>Understand the importance of 24/7 security monitoring and why round-the-clock protection is essential. Learn how Triapora Security ensures continuous surveillance and rapid response to incidents.</p>
+                    <a href="blog-8.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-date">Dec 2025</div>
+                    <h3>Security Technology: Modern Solutions for Enhanced Protection</h3>
+                    <p>Explore the latest security technologies used by professional agencies. Learn about CCTV systems, access control, and how Triapora Security integrates technology with trained personnel.</p>
+                    <a href="blog-9.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-date">Dec 2025</div>
+                    <h3>Why Professional Security Matters: Building Trust and Safety in Your Community</h3>
+                    <p>Understand the importance of professional security services in building safe communities. Learn how integrity, discipline, and professionalism create the foundation for lasting peace of mind.</p>
+                    <a href="blog-10.html" class="read-more">Read More →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Information</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>📍 Our Office</h3>
+                    <div class="contact-item">
+                        <strong>Address:</strong>
+                        <span>Block 4, Olympus Subdivision, Lot 5 Zabarte Rd, Novaliches, Quezon City 1124, Metro Manila</span>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <h3>📞 Get In Touch</h3>
+                    <div class="contact-item">
+                        <strong>Phone:</strong>
+                        <a href="tel:0920-981-3468">0920-981-3468</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Landline:</strong>
+                        <a href="tel:+639865203">(8) 9865203</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Email:</strong>
+                        <a href="mailto:triaporasec@gmail.com">triaporasec@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="map-container">
+                <!-- Google Map -->
+                <div class="map-wrapper">
+                    <div class="embed-map-fixed">
+                        <div class="embed-map-container">
+                            <iframe
+                                class="embed-map-frame"
+                                frameborder="0"
+                                scrolling="no"
+                                marginheight="0"
+                                marginwidth="0"
+                                src="https://maps.google.com/maps?width=500&height=500&hl=en&q=Triapora%20Security%20Agency%20Inc.&t=&z=18&ie=UTF8&iwloc=B&output=embed">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Triapora Security Agency Inc.</h4>
+                <p>Your Security Is Our Priority</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Commercial Security</a></li>
+                    <li><a href="#services">Residential Security</a></li>
+                    <li><a href="#services">Industrial Security</a></li>
+                    <li><a href="#services">Educational Security</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><a href="tel:0920-981-3468">0920-981-3468</a></li>
+                    <li><a href="mailto:triaporasec@gmail.com">triaporasec@gmail.com</a></li>
+                    <li><a href="https://www.facebook.com/p/Triapora-Security-Agency-Inc-61579579114946/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Triapora Security Agency. All rights reserved. | Your Security Is Our Priority</p>
+        </div>
+    </footer>
+
+    <script>
+        // Hamburger Menu Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        hamburger.addEventListener('click', function() {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu when a link is clicked
+        const navItems = navLinks.querySelectorAll('a');
+        navItems.forEach(item => {
+            item.addEventListener('click', function() {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const isClickInsideNav = navLinks.contains(event.target);
+            const isClickOnHamburger = hamburger.contains(event.target);
+            
+            if (!isClickInsideNav && !isClickOnHamburger && navLinks.classList.contains('active')) {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>

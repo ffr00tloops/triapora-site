@@ -1,0 +1,38 @@
+# Robots.txt for Triapora Security Agency
+# Allows search engines to crawl and index your website
+
+User-agent: *
+Allow: /
+Allow: *.html
+Allow: *.css
+Allow: *.js
+Allow: /image/
+
+# Disallow private or sensitive areas (if any)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Crawl delay to prevent server overload (optional)
+Crawl-delay: 1
+
+# Specify sitemap location
+Sitemap: https://triaporasecurity.com/sitemap.xml
+
+# Allow specific search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Disallow bad bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
