@@ -5,7 +5,7 @@
     <!-- Main Landing Page -->
     <url>
         <loc>https://triaporasecurity.com/</loc>
-        <lastmod>2025-12-03</lastmod>
+        <lastmod>2025-12-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -13,30 +13,53 @@
     <!-- Service Pages -->
     <url>
         <loc>https://triaporasecurity.com/service-commercial.html</loc>
-        <lastmod>2025-12-03</lastmod>
+        <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
         <loc>https://triaporasecurity.com/service-residential.html</loc>
-        <lastmod>2025-12-03</lastmod>
+        <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
         <loc>https://triaporasecurity.com/service-industrial.html</loc>
-        <lastmod>2025-12-03</lastmod>
+        <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
         <loc>https://triaporasecurity.com/service-educational.html</loc>
-        <lastmod>2025-12-03</lastmod>
+        <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
+    </url>
+
+    <!-- Services listing page -->
+    <url>
+        <loc>https://triaporasecurity.com/services.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- About & Contact -->
+    <url>
+        <loc>https://triaporasecurity.com/about.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://triaporasecurity.com/contact.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
 
     <!-- Blog Pages -->
