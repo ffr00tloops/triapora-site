@@ -13,7 +13,7 @@
           "value": "www.triaporasecurity.com"
         }
       ],
-      "destination": "https://triaporasecurity.com/:1",
+      "destination": "https://triaporasecurity.com/",
       "permanent": true
     }
   ]
