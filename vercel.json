@@ -1,18 +1,23 @@
 {
   "redirects": [
-    {
-      "source": "/index.html",
-      "destination": "/",
-      "permanent": true
-    },
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/service-commercial.html", "destination": "/services.html", "permanent": true },
+    { "source": "/service-residential.html", "destination": "/services.html", "permanent": true },
+    { "source": "/service-industrial.html", "destination": "/services.html", "permanent": true },
+    { "source": "/service-educational.html", "destination": "/services.html", "permanent": true },
+    { "source": "/blog-1.html", "destination": "/services.html", "permanent": true },
+    { "source": "/blog-2.html", "destination": "/about.html", "permanent": true },
+    { "source": "/blog-3.html", "destination": "/about.html", "permanent": true },
+    { "source": "/blog-4.html", "destination": "/services.html", "permanent": true },
+    { "source": "/blog-5.html", "destination": "/services.html", "permanent": true },
+    { "source": "/blog-6.html", "destination": "/services.html", "permanent": true },
+    { "source": "/blog-7.html", "destination": "/about.html", "permanent": true },
+    { "source": "/blog-8.html", "destination": "/services.html", "permanent": true },
+    { "source": "/blog-9.html", "destination": "/services.html", "permanent": true },
+    { "source": "/blog-10.html", "destination": "/services.html", "permanent": true },
     {
       "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.triaporasecurity.com"
-        }
-      ],
+      "has": [{ "type": "host", "value": "www.triaporasecurity.com" }],
       "destination": "https://triaporasecurity.com/",
       "permanent": true
     }
